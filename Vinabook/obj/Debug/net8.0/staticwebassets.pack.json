@@ -1,0 +1,649 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Vinabook.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Vinabook.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\author.css",
+      "PackagePath": "staticwebassets\\assets\\css\\author.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\base.css",
+      "PackagePath": "staticwebassets\\assets\\css\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\cart.css",
+      "PackagePath": "staticwebassets\\assets\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\category.css",
+      "PackagePath": "staticwebassets\\assets\\css\\category.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\chitiet.css",
+      "PackagePath": "staticwebassets\\assets\\css\\chitiet.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\register.css",
+      "PackagePath": "staticwebassets\\assets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\site.css",
+      "PackagePath": "staticwebassets\\assets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\thanhtoan.css",
+      "PackagePath": "staticwebassets\\assets\\css\\thanhtoan.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\343614_mat-biec-bia-mem-tai-ban-2019.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\343614_mat-biec-bia-mem-tai-ban-2019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\345540_thu-nghiem-hoang-dai-tang-kem-bo-co-bong-chuyen-haikyu.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\345540_thu-nghiem-hoang-dai-tang-kem-bo-co-bong-chuyen-haikyu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\372337_con-chim-xanh-biec-bay-ve-bia-cung.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\372337_con-chim-xanh-biec-bay-ve-bia-cung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\Kho Sách.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Kho Sách.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\KhoSach-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\KhoSach-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\amazon.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\amazon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\anhbe1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\anhbe1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\anhbe2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\anhbe2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\anhbe3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\anhbe3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\anhbe4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\anhbe4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\anhbe5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\anhbe5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\anhto.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\anhto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\atm.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\atm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\au-book1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\au-book1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\au-book2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\au-book2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\au-book3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\au-book3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\au.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\au.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\author.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\avtmd.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avtmd.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\ban.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ban.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\ban.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ban.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\bs_b1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bs_b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\bs_b2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bs_b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\bs_b3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bs_b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\bs_b4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bs_b4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\bs_b5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bs_b5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\bs_b6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bs_b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\capcha.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\capcha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\cateb10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cateb10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\cateb3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cateb3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\cateb4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cateb4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\cateb5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cateb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\cateb6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cateb6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\cateb7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cateb7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\cateb8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cateb8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\cateb9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cateb9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\categoryb1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categoryb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\categoryb2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categoryb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\chitet.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chitet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\cod.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cod.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\customer1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\customer1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\customer2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\customer2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\customer3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\customer3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\dhl.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\dhl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\download.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\duong-may-qua-xu-tuyet-tai-ban-2021.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\duong-may-qua-xu-tuyet-tai-ban-2021.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\facebook_signin_dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\facebook_signin_dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\google_signin_dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\google_signin_dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\hanh-trinh-ve-phuong-dong-kho-nho.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hanh-trinh-ve-phuong-dong-kho-nho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\huyen-thuat-va-cac-dao-si-tay-tang.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\huyen-thuat-va-cac-dao-si-tay-tang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\icon-appstore.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon-appstore.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\icon-googleplay.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon-googleplay.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\jcb.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\jcb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\kinh_te.png",
+      "PackagePath": "staticwebassets\\assets\\img\\kinh_te.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\lazada.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lazada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\logo_hotdeal_2x.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo_hotdeal_2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\logo_so_cong_thuong.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo_so_cong_thuong.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\logo_yesgo_2x.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo_yesgo_2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\logovnb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logovnb.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\master_card.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\master_card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\mastercard_securecode.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\mastercard_securecode.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\muon-kiep-nhan-sinh-bia-cung.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\muon-kiep-nhan-sinh-bia-cung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\ngoaiva.png",
+      "PackagePath": "staticwebassets\\assets\\img\\ngoaiva.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\onepay.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\onepay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\payoo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\payoo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\rungnauy.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rungnauy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\sach1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sach1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\sachKT.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sachKT.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\sachmoi.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sachmoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\shopee.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\shopee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\side-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\side-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\side-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\side-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\side-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\side-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\side-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\side-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\side-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\side-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\side-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\side-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\side-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\side-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\side-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\side-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\verify_visa.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\verify_visa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\visa.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\visa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\vn-post.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\vn-post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\author.js",
+      "PackagePath": "staticwebassets\\assets\\js\\author.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\category.js",
+      "PackagePath": "staticwebassets\\assets\\js\\category.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\chitiet.js",
+      "PackagePath": "staticwebassets\\assets\\js\\chitiet.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\index.js",
+      "PackagePath": "staticwebassets\\assets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\register.js",
+      "PackagePath": "staticwebassets\\assets\\js\\register.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\site.js",
+      "PackagePath": "staticwebassets\\assets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Vinabook.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Vinabook.props",
+      "PackagePath": "build\\Vinabook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Vinabook.props",
+      "PackagePath": "buildMultiTargeting\\Vinabook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Vinabook.props",
+      "PackagePath": "buildTransitive\\Vinabook.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

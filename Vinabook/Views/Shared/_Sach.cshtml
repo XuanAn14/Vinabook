@@ -1,0 +1,101 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sách Văn Học Trong Nước</title>
+    <link rel="stylesheet" href="/assets/css/category.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="breadcrumb">
+        <ul class="breadcrumb__list">
+            <li class="breadcrumb__item">
+                <a href="">
+                    Trang chủ
+                </a>
+            </li>
+            <li class="breadcrumb__item">
+                <a href="">
+                    <i class="bi bi-chevron-right"></i>
+                    Sách Văn Học Trong Nước
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="category grid__row">
+        <div class="grid__colunm-3">
+            @await Component.InvokeAsync("Sidebar")
+
+        </div>
+
+        <div class="grid__colunm-9">
+            <div class="category-right">
+                <h3 class="category-right__title">Sách Văn Học Trong Nước</h3>
+
+                <div class="category-right__filter">
+                    <div class="category-right__filter-box" onclick="comboboxOpen()">
+                        Sắp xếp theo trạng thái sách
+                        <i class="bi bi-caret-down-fill category-right__filter-icon"></i>
+                        <ul class="filter-combobox filter-combobox_none">
+                            <li class="filter-combobox__item">
+                                Mới nhất
+                            </li>
+                            <li class="filter-combobox__item">
+                                A đến Z
+                            </li>
+                            <li class="filter-combobox__item">
+                                Z đến A
+                            </li>
+                            <li class="filter-combobox__item">
+                                Giá thấp đến cao
+                            </li>
+                            <li class="filter-combobox__item">
+                                Giá cao đến thấp
+                            </li>
+                            <li class="filter-combobox__item">
+                                Giảm giá thấp đến cao
+                            </li>
+                            <li class="filter-combobox__item">
+                                Giảm giá cao đến thấp
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="filter-grid">
+                        <i class="bi bi-grid filter-grid__icon filter-grid--active"></i>
+                        <i class="bi bi-grid-1x2 filter-grid__icon"></i>
+                    </div>
+                </div>
+
+                @RenderBody()
+
+
+            </div>
+
+            <div class="category-right__bot">
+                <span class="category-right__bot-title">Trang 1/244</span>
+                <a class="category-right__bot-page category-right__bot-page--active">
+                    1</span>
+                    <a href="" class="category-right__bot-page">2</a>
+                    <a href="" class="category-right__bot-page">3</a>
+                    <a href="" class="category-right__bot-page">4</a>
+                    <a href="" class="category-right__bot-page">5</a>
+                    <a href="" class="category-right__bot-page">6</a>
+                    <a href="" class="category-right__bot-page">7</a>
+                    <a href="" class="category-right__bot-page">8</a>
+                    <a href="" class="category-right__bot-page">></a>
+                    <a href="" class="category-right__bot-page">2-16</a>
+            </div>
+
+        </div>
+    </div>
+    <script src="./assets/js/category.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>

@@ -1,0 +1,445 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Vinabook.Models.Sach
+@{
+    Layout = "_Layout";
+}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@Model?.Ten</title>
+    <link rel="stylesheet" href="/assets/css/chitiet.css">
+</head>
+<body>
+    <div class="grid">
+
+        <div class="breadcrumb">
+            <ul class="breadcrumb__list">
+                <li class="breadcrumb__item">
+                    <a href="">
+                        Trang chủ
+                    </a>
+                </li>
+                <li class="breadcrumb__item">
+                    <a href="">
+                        <i class="bi bi-chevron-right"></i>
+                        Sách Văn Học Trong Nước
+                    </a>
+                </li>
+                <li class="breadcrumb__item">
+                    <a href="">
+                        <i class="bi bi-chevron-right"></i>
+                        Truyện Dài
+                    </a>
+                </li>
+                <li class="breadcrumb__item">
+                    <a href="">
+                        <i class="bi bi-chevron-right"></i>
+                        Con Chó Nhỏ Mang Giỏ Hoa Hồng (Bìa Mềm)
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="product">
+
+            @RenderBody()
+
+            <div class="grid__full-width">
+                <div class="extra-book__title">Sách nên mua kèm với sách này</div>
+                <div class="extra-book__box">
+                    <div class="extra-book__pics">
+                        <a href="" class="extra-book__pic">
+                            <img src="/assets/img/372337_con-chim-xanh-biec-bay-ve-bia-cung.jpg" alt="">
+                            <span class="sale">-25%</span>
+                        </a>
+                        <i class="bi bi-plus-lg"></i>
+                        <a href="" class="extra-book__pic">
+                            <img src="/assets/img/345540_thu-nghiem-hoang-dai-tang-kem-bo-co-bong-chuyen-haikyu.jpg" alt="">
+                            <span class="sale">-15%</span>
+                        </a>
+                        <i class="bi bi-plus-lg"></i>
+                        <a href="" class="extra-book__pic">
+                            <img src="/assets/img/343614_mat-biec-bia-mem-tai-ban-2019.jpg" alt="">
+                            <span class="sale">-15%</span>
+                        </a>
+                        <div class="extra-book__prices">
+                            <div class="extra-book__price">
+                                <span class="extra-book__label">Tổng giá bán</span>
+                                <span class="extra-book__num">376.000đ</span>
+                            </div>
+                            <button class="btn__buy" style="width: 134px;">
+                                <i class="bi bi-cart4 btn__buy-icon"></i>
+                                Mua Ngay
+                            </button>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="extra-book__checkbox">
+                            <input type="checkbox" name="extra-book" id="" checked>
+                            <label for="">
+                                <a href="">
+                                    Con Chim Xanh Biếc Bay Về (Bìa Cứng)
+                                </a>
+                                <span>202.000đ</span>
+                            </label>
+                        </div>
+                        <div class="extra-book__checkbox">
+                            <input type="checkbox" name="extra-book" id="" checked>
+                            <label for="">
+                                <a href="">
+                                    Thử Nghiệm Hoang Dại (Tặng Kèm Bộ Cờ Bóng Chuyền Haikyu)
+                                </a>
+                                <span>81.000đ</span>
+                            </label>
+                        </div>
+                        <div class="extra-book__checkbox">
+                            <input type="checkbox" name="extra-book" id="" checked>
+                            <label for="">
+                                <a href="">
+                                    Mắt Biếc (Bìa Mềm) - Tái Bản 2019
+                                </a>
+                                <span>93.000đ</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="tab-detail" id="tabFixed">
+        <div class="grid">
+            <ul class="tab-detail__list">
+                <li class="tab-detail__item tab-detail__item--active" id="tabReview">
+                    <a href="">GIỚI THIỆU SÁCH</a>
+                </li>
+                <li class="tab-detail__item" id="tabInfo">
+                    <a href="">THÔNG TIN CHI TIẾT</a>
+                </li>
+                <li class="tab-detail__item" id="tabRate">
+                    <a href="">ĐÁNH GIÁ & BÌNH LUẬN</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="introduce">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__colunm-8-5">
+                    <h3 class="introduce__title">Con Chó Nhỏ Mang Giỏ Hoa Hồng (Bìa Mềm)</h3>
+                    <div class="introduce__p">
+                        <p><b><i>“Con chó nhỏ mang giỏ hoa hồng”</i></b> là tác phẩm mới nhất của nhà văn chuyên viết cho thanh thiếu niên Nguyễn Nhật Ánh, nối tiếp sau <i>Bảy bước tới mùa hè, Tôi thấy hoa vàng trên cỏ xanh…</i> gây sóng gió thị trường sách năm 2015. </p>
+                        <p>5 chương sách với 86 câu chuyện cực kỳ thú vị và hài hước về 5 con chó 5 loài 5 tính cách trong 1 gia đình có 3 người đều yêu chúng nhưng theo từng cách riêng của mình. Các câu chuyện về tình bạn giữa chúng với nhau, giữa chúng với chị Ni, ba mẹ, khách đến nhà… thực sự mang lại một thế giới trong trẻo, những đoạn đời dễ thương quyến rũ tuổi mới lớn.</p>
+                        <p>Một quyển sách lôi cuốn viết cho tất cả chúng ta: trẻ con và người lớn. Cuộc đời của 5 con chó nhỏ: Haili, Batô, Suku, Êmê và Pig được tái hiện như đời sống của mỗi con người: tình bạn, tình yêu, đam mê, lòng dũng cảm, sự sợ hãi, và những ước mơ... </p>
+                        <b>Mời bạn đón đọc</b>
+                    </div>
+                </div>
+
+                <div class=" grid__colunm-3-5">
+                    <div class="author">
+                        <p class="author__title">Thông tin tác giả</p>
+                        <div class="author__name">
+                            <a href="">Nguyễn Nhật Ánh</a>
+                        </div>
+                        <div class="author__pic-wr">
+                            <img src="/assets/img/author.jpg" alt="" class="author__pic">
+
+                        </div>
+                        <span class="author-text">
+                            Nguyễn Nhật Ánh là tên và cũng là bút danh của một nhà văn Việt Nam chuyên viết cho tuổi mới lớn. Ông sinh ngày 7 tháng 5 năm 1955 tại huyện Thăng Bình, Quảng Nam. Năm 13 tuổi ông đăng báo bài thơ đầu tiên. Tác phẩm đầu tiên in thành sách là một tập thơ: Thành phố tháng tư ...
+                        </span>
+                        <ul class="author__list">
+                            <li class="author__item">
+                                <a href="">
+                                    <i class="bi bi-chevron-double-right"></i>
+                                    Vào trang riêng của tác giả
+                                </a>
+                            </li>
+                            <li class="author__item">
+                                <a href="">
+                                    <i class="bi bi-chevron-double-right"></i>
+                                    Xem tất cả các sách của tác giả
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="information">
+        <div class="grid">
+            <h3 class="information__title">Thông tin chi tiết</h3>
+            <ul class="information__list">
+                <li class="information__item">
+                    <b>Tác giả:</b>
+                    <span>Nguyễn Nhật Ánh</span>
+                </li>
+                <li class="information__item">
+                    <b>Nhà phát hành:</b>
+                    <a href="">NXB Trẻ</a>
+                </li>
+                <li class="information__item">
+                    <b>Khối lượng:</b>
+                    <span>242.00 gam</span>
+                </li>
+                <li class="information__item">
+                    <b>Định dạng:</b>
+                    <span>Bìa mềm</span>
+                </li>
+                <li class="information__item">
+                    <b>Ngày phát hành:</b>
+                    <span>26/02/2016</span>
+                </li>
+                <li class="information__item">
+                    <b>Nhà xuất bản:</b>
+                    <span>Nxn Trẻ</span>
+                </li>
+                <li class="information__item">
+                    <b>Mã sản phẩm:</b>
+                    <span>8934974139034</span>
+                </li>
+                <li class="information__item">
+                    <b>Ngôn ngữ: </b>
+                    <span>Tiếng Việt</span>
+                </li>
+                <li class="information__item">
+                    <b>Kích thước:</b>
+                    <span>13 x 20cm</span>
+                </li>
+                <li class="information__item">
+                    <b>Số trang:</b>
+                    <span>256</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="comment-rate">
+        <div class="grid">
+            <h3 class="comment__title">Nhận xét từ khách hàng</h3>
+            <div class="customer">
+                <div class="customer-pic">
+                    <img src="/assets/img/avtmd.png" alt="" class="customer__img">
+                </div>
+
+                <div class="customer-rate-review">
+                    <label class="customer-review1">Sách hay</label>
+                    <div class="rate-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="customer-rate__infor">
+                        Bởi
+                        <a href="" class="customer__name">Yến Nhi</a>
+                        <span class="time">06/03/2016 22:44:43</span>
+                    </div>
+                    <p class="customer__comment">Về Nội dung thì đây là 1 cuốn sách hay nhưng khá bực mình khi đọc gần hết cuốn cuốn mới phát hiện vài Trang bị rách, vì chỗ rách gần phía cuối Trang nên không phát hiện ra, mình không biết lỗi do nhà xuất bản hay do người bọc sách làm rách, với 1 người yêu sách thì thật là khó chịu, chỉ riêng khoảng này là mình thấy không hài lòng, cuốn này được một người bạn tặng vào dịp 8/3 mình khá bức xúc nên mong vinabook kiểm tra kĩ hơn trước khi giao hàng, hi vọng sẽ không gặp lỗi này nữa.</p>
+                    <div class="user-rate-cmt">
+                        <button class="like-comment">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Thích
+                        </button> <br>
+                        <a href="">Trả lời của bạn về đánh giá này</a>
+                        , <span>đã có 0 phản hồi</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer">
+                <div class="customer-pic">
+                    <img src="/assets/img/customer2.jpg" alt="" class="customer__img">
+                </div>
+
+                <div class="customer-rate-review">
+                    <label class="customer-review1">hay và ngắn gọn</label>
+                    <div class="rate-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="customer-rate__infor">
+                        Bởi
+                        <a href="" class="customer__name">Sơn Tùng MTP</a>
+                        <span class="time">06/03/2016 22:44:43</span>
+                    </div>
+                    <p class="customer__comment">Quyển này đọc 1 vèo là hết, so với Tôi là Bê tô thì quyển này nội tâm hơn nhưng vẫn rất dễ thương. Đọc xong chúng ta sẽ thêm yêu loài vật hơn, thêm để ý đến tâm trạng, cảm nhận của chúng hơn. Bởi vì chúng cũng như con người, có những cảm xúc, mong muốn nhưng k thổ lộ ra đc, chỉ biết mơ tưởng (như Pig) hoặc kìm nén rồi bộc phát (như Suku).</p>
+                    <div class="user-rate-cmt">
+                        <button class="like-comment">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Thích
+                        </button> <br>
+                        <a href="">Trả lời của bạn về đánh giá này</a>
+                        , <span>đã có 235 phản hồi</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer">
+                <div class="customer-pic">
+                    <img src="/assets/img/customer3.jpg" alt="" class="customer__img">
+                </div>
+
+                <div class="customer-rate-review">
+                    <label class="customer-review1"></label>
+                    <div class="rate-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <div class="customer-rate__infor">
+                        Bởi
+                        <a href="" class="customer__name">Hacker</a>
+                        <span class="time">06/03/2016 22:44:43</span>
+                    </div>
+                    <p class="customer__comment"></p>
+                    <div class="user-rate-cmt">
+                        <button class="like-comment">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Thích
+                        </button> <br>
+                        <a href="">Trả lời của bạn về đánh giá này</a>
+                        , <span>đã có 0 phản hồi</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer">
+                <div class="customer-pic">
+                    <img src="/assets/img/avtmd.png" alt="" class="customer__img">
+                </div>
+
+                <div class="customer-rate-review">
+                    <label class="customer-review1">Bình luận</label>
+                    <div class="rate-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="customer-rate__infor">
+                        Bởi
+                        <a href="" class="customer__name">Người dùng</a>
+                        <span class="time">06/03/2016 22:44:43</span>
+                    </div>
+                    <p class="customer__comment">Hay</p>
+                    <div class="user-rate-cmt">
+                        <button class="like-comment">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Thích
+                        </button> <br>
+                        <a href="">Trả lời của bạn về đánh giá này</a>
+                        , <span>đã có 0 phản hồi</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer customer-last">
+                <div class="customer-pic">
+                    <img src="/assets/img/avtmd.png" alt="" class="customer__img">
+                </div>
+
+                <div class="customer-rate-review">
+                    <label class="customer-review1"></label>
+                    <div class="rate-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="customer-rate__infor">
+                        Bởi
+                        <a href="" class="customer__name">Người qua đường</a>
+                        <span class="time">06/03/2016 22:44:43</span>
+                    </div>
+                    <p class="customer__comment">Cũng được</p>
+                    <div class="user-rate-cmt">
+                        <button class="like-comment">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Thích
+                        </button> <br>
+                        <a href="">Trả lời của bạn về đánh giá này</a>
+                        , <span>đã có 0 phản hồi</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="rate-bottom">
+                    <div class="rate-total">
+                        <div class="rate-total__text">
+                            <span class="rate-total__title">Đánh giá trung bình</span>
+                            <br>
+                            <span class="rate-total__sub">(5 người đã đánh giá)</span>
+                            <div class="rate-total__num">4.8</div>
+                        </div>
+                        <div class="rate-total__icons">
+                            <ul class="rate-total__list">
+                                <li class="rate-total__item">
+                                    5<i class="bi bi-star-fill rate-total__star"></i>
+                                    <div class="rate-total__item-score">
+                                        <div class="rate-total__item-score-ins" style="width: 80%;"></div>
+                                    </div>
+                                    <span class="rate-total__item-num-rate">4</span>
+                                </li>
+                                <li class="rate-total__item">
+                                    4<i class="bi bi-star-fill rate-total__star"></i>
+                                    <div class="rate-total__item-score">
+                                        <div class="rate-total__item-score-ins" style="width: 20%;"></div>
+                                    </div>
+                                    <span class="rate-total__item-num-rate">1</span>
+                                </li>
+                                <li class="rate-total__item">
+                                    3<i class="bi bi-star-fill rate-total__star"></i>
+                                    <div class="rate-total__item-score"></div>
+                                    <span class="rate-total__item-num-rate">0</span>
+                                </li>
+                                <li class="rate-total__item">
+                                    2<i class="bi bi-star-fill rate-total__star"></i>
+                                    <div class="rate-total__item-score"></div>
+                                    <span class="rate-total__item-num-rate">0</span>
+                                </li>
+                                <li class="rate-total__item">
+                                    1<i class="bi bi-star-fill rate-total__star"></i>
+                                    <div class="rate-total__item-score"></div>
+                                    <span class="rate-total__item-num-rate">0</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="user-comment">
+                        <span class="user-comment__note">Đăng nhập để gửi nhận xét của Bạn</span>
+                        <div class="user-login-box">
+                            <button class="login-btn" onclick="openLogin()">
+                                ĐĂNG NHẬP
+                            </button>
+                            <span class="user-regis">
+                                Bạn chưa có tài khoản? <br>
+                                Hãy <a href="" class="regis-btn">Đăng ký</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="note-bottom">Bình luận từ facebook ()</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/chitiet.js"></script>
+@await RenderSectionAsync("Scripts", required: false)
