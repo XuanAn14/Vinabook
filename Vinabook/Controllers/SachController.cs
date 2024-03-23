@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -26,6 +27,13 @@ namespace Vinabook.Controllers
             return View(await vinabookContext.ToListAsync());
         }
 
+        //Tim Kiem
+        [HttpPost]
+        public async Task<IActionResult> Index(int batma, string tukhoa)
+        {
+            var vinabookContext = _context.Sach.Include(s => s.DanhMuc).Where(s => s.Ten.Contains(tukhoa) || s.MaDanhMuc == batma || s.TacGia.Contains(tukhoa));
+            return View(await vinabookContext.ToListAsync());
+        }
         // GET: Sach/Details/5
         public async Task<IActionResult> Details(int? id)
         {

@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -47,6 +50,35 @@ namespace Vinabook.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        [HttpPost]
+        // Dang Nhap
+        public IActionResult DangNhap(string ten, string matkhau)
+        {
+            var NguoiDung = _context.NguoiDung.Where(m => m.TenNguoiDung == ten && m.MatKhau == matkhau).FirstOrDefault<NguoiDung>();
+            if (NguoiDung == null || _context.NguoiDung == null)
+            {
+                return NotFound();
+            }
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, NguoiDung.TenNguoiDung),
+                new Claim(ClaimTypes.Role, NguoiDung.VaiTro),
+            };
+            var claimsIdentity = new ClaimsIdentity(
+            claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            HttpContext.SignInAsync(
+            CookieAuthenticationDefaults.AuthenticationScheme,
+            new ClaimsPrincipal(claimsIdentity));
+            return RedirectToAction("Index","Home");
+        }
+
+        //Dang Xuat
+        public IActionResult DangXuat()
+        {
+            HttpContext.SignOutAsync();
+            return View("DangNhap");
         }
 
         // POST: NguoiDung/Create

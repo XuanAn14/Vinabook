@@ -1,0 +1,125 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form asp-controller="NguoiDung" asp-action="DangNhap">
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+        <input type="email" id="form2Example1" class="form-control" />
+        <label class="form-label" for="form2Example1">Email address</label>
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+        <input type="password" id="form2Example2" class="form-control" />
+        <label class="form-label" for="form2Example2">Password</label>
+    </div>
+
+    <!-- 2 column grid layout for inline styling -->
+    <div class="row mb-4">
+        <div class="col d-flex justify-content-center">
+            <!-- Checkbox -->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                <label class="form-check-label" for="form2Example31"> Remember me </label>
+            </div>
+        </div>
+
+        <div class="col">
+            <!-- Simple link -->
+            <a href="#!">Forgot password?</a>
+        </div>
+    </div>
+
+    <!-- Submit button -->
+    <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+    <!-- Register buttons -->
+    <div class="text-center">
+        <p>Not a member? <a href="#!">Register</a></p>
+        <p>or sign up with:</p>
+        <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-facebook-f"></i>
+        </button>
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-google"></i>
+        </button>
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-twitter"></i>
+        </button>
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-github"></i>
+        </button>
+    </div>
+</form>
+<!--
+<div class="modal" id="loginForm">
+    <div class="modal__overlay"></div>
+    <div class="modal__body">
+        <form asp-controller="NguoiDung" asp-action="DangNhap">
+            <div class="login-form ">
+                <button class="login-exit" id="login-exit_btn" onclick="closeLoginForm()">
+                    x
+                </button>
+                <h3 class="login__title">Đăng nhập</h3>
+                <table class="login-box">
+                    <tr>
+                        <td>
+                            <label for="" class="login-label important-info">Email</label>
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="ten" id="" class="login-input">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="" class="login-label important-info">Mật khẩu</label>
+                        </td>
+                        <td colspan="2">
+                            <input type="text" name="matkhau" id="" class="login-input">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="login-remember-box">
+                            <input type="checkbox" name="" id="" class="login-checkbox">
+                            <label for="" class="login-remember">Ghi nhớ thông tin</label>
+                        </td>
+                        <td>
+                            <a href="" class="login__forgot">Quên mật khẩu?</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button class="login-btn" type="submit">
+                                ĐĂNG NHẬP
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <h5 class="login-footer-title">Chưa có tài khoản vui lòng <a href="" class="regis-btn">ĐĂNG kÝ</a></h5>
+                        </td>
+                    </tr>
+                </table>
+                <div class="login__bottom">
+                    <p class="login__bottom-tile">Hoặc đăng nhập bằng:</p>
+                    <a href="" class="login__google">
+                        <img src="/assets/img/google_signin_dark.png" alt="">
+                    </a>
+                    <a href="" class="login__facebook">
+                        <img src="/assets/img/facebook_signin_dark.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+-->
