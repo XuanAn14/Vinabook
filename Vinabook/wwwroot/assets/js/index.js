@@ -14,14 +14,5 @@ function myFunction() {
 
 }
 
-
-// login form
-var loginForm = document.getElementById("loginForm");
-
-function openLogin() {
-  loginForm.style.setProperty("display","flex")
-}
-
-function closeLoginForm() {
-  loginForm.style.setProperty("display","none")
-}
+var listbooks__list = document.querySelector(".listbooks-list");
+listbooks__list.classList.remove("listbooks_none");

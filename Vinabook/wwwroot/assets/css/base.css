@@ -270,11 +270,17 @@ body {
     border-radius: 50%;
     color: var(--white-color);
     font-size: 13px;
+    width: 20px;
+    height: 20px;
+    font-weight: 500;
+    padding: 0px 0px 7px 7px;
 }
 
 .header-mid__cart-icon {
     font-size: 26px;
     color: var(--primary-color);
+    position: absolute;
+    top: 4px;
 }
 
 .cart-box {
@@ -386,7 +392,7 @@ body {
 
 .header-mid__right a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--text-color);
 }
 
@@ -395,8 +401,8 @@ body {
     display: block;
     position: absolute;
     border-right: 1px solid #000;
-    height: 14px;
-    top: 2px;
+    height: 16px;
+    top: 4px;
     right: 44%;
 }
 
@@ -410,6 +416,7 @@ body {
 
 .header-bot__container {
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-bot__navbar {
@@ -427,6 +434,7 @@ body {
     cursor: pointer;
     position: relative;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .header-bot__navbar-li:hover{
@@ -468,6 +476,9 @@ body {
     font-size: 18px;
     color: var(--white-color);
     font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
 }
 
 .header-bot__help {
@@ -524,6 +535,7 @@ body {
     border: 1px solid #ccc;
     box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.1);
     z-index: 888;
+    top: 106%;
 }
 
 .listbooks_none{
@@ -806,6 +818,7 @@ body {
 
 .login-footer-title {
     margin: 10px 0 10px 0;
+    font-size: 14px;
 }
 
 .login__bottom {

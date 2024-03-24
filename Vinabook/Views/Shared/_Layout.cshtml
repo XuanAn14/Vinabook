@@ -7,94 +7,24 @@
     <title>KhoSach</title>
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 <body>
     <div class="frame">
-        <header class="header">
-            <div class="header-top">
-                <div class="grid">
-                    <ul class="header-top__list">
-                        <li class="header-top__list-item header-top__list-item-separator">
-                            <i class="bi bi-truck header-top__icon"></i>
-                            Miễn phí giao hàng
-                            <div class="decription">
-                                <p class="decription-p">
-                                    Miễn phí giao hàng toàn quốc cho Đơn hàng từ 250.000đ.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="header-top__list-item header-top__list-item-separator">
-                            <i class="bi bi-book header-top__icon"></i>
-                            80.000 tựa sách
-                            <div class="decription">
-                                <p class="decription-p">
-                                    Với hơn 80,000 đầu sách trong mọi lĩnh vực (và tiếp tục tăng mỗi ngày), Kho sách tự hào là nhà sách trên mạng có số lượng đầu sách lớn nhất Việt Nam, bạn có thể tìm được bất kỳ quyển sách nào cho mọi nhu cầu đọc sách của bạn.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="header-top__list-item">
-                            <i class="bi bi-phone header-top__icon"></i>
-                            <a href="" class="header-top__list-link">KhoSach Reader</a>
-                        </li>
-                    </ul>
-                </div>
+
+        @await Component.InvokeAsync("Header")
+
+        @if (TempData["ThongBao"] != null)
+        {
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                @TempData["ThongBao"]
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
-
-            @await Component.InvokeAsync("TimKiem")
-
-            <div class="header-bot">
-                <div class="grid ">
-                    <div class="header-bot__container grid__row">
-                        <div class="grid__colunm-3">
-                            <div class="header-bot__listbooks">
-                                <i class="bi bi-list header-bot__listbooks-icon"></i>
-                                <h3 class="header-bot__listbooks-title ">Danh Mục Sách</h3>
-                                <i class="bi bi-chevron-down header-bot__listbooks-icon-down"></i>
-
-                                @await Component.InvokeAsync("Navbar")
-
-                            </div>
-
-                        </div>
-                        <div class="grid__colunm-9">
-                            <ul class="header-bot__navbar">
-                                <a href="/DanhMuc">
-                                    <li class="header-bot__navbar-li">Danh Mục</li>
-                                </a>
-                                <a href="/Sach">
-                                    <li class="header-bot__navbar-li">Sách</li>
-                                </a>
-                                <a href="/NguoiDung">
-                                    <li class="header-bot__navbar-li">Người Dùng</li>
-                                </a>
-                            </ul>
-                            <!-- <div class="header-bot__help">
-                                <div class="header-bot__help-contact">
-                                    <i class="bi bi-telephone"></i>
-                                    Hotline: <b>1900 1234</b>
-                                    <div class="decription">
-                                        <p class="decription-p" style="color: var(--text-color);">
-                                            Tổng đài chăm sóc và Hỗ trợ Khách hàng hoạt động suốt 6 ngày trong tuần
-                                            Thứ 2 - 6: hoạt động từ 8:00 - 17:00
-                                            T7 - Chủ nhật: Quý khách vui lòng để lại tin nhắn qua email hotro@gmail.com Chúng tôi sẽ xử lý email sớm nhất giúp quý khách.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="header-bot__help-support">
-                                    <i class="bi bi-chat-dots"></i>
-                                    <a href="" class="header-bot__help-support-link">
-                                        Hỗ trợ trực tuyến
-                                    </a>
-                                </div>
-
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+        }
 
 
         <div class="container">
@@ -103,219 +33,13 @@
                 
             </div>
         </div>
-        <footer class="footer">
-            <div class="footer-regis">
-                <div class="grid">
-                    <div class="footer-regis__box">
-                        <div class="footer-regis__title">
-                            <label class="footer-regis__label">
-                                ĐĂNG KÝ NHẬN EMAIL <br>
-                                <span>Đăng ký nhận thông tin sách mới, sách bán</span>
-                            </label>
-                        </div>
-                        <div class="footer-regis__inputs">
-                            <input type="text" class="regis-input__name" placeholder="Tên của bạn">
-                            <input type="text" class="regis-input__email" placeholder="Nhập email của bạn">
-                            <select name="" id="" class="regis-input__option-gr">
-                                <option value="">Thể loại yêu thích</option>
-                                <option value="all">Tất cả</option>
-                                <option value="SNV">Sách Ngoại Văn</option>
-                                <option value="SKT">Sách Kinh Tế</option>
-                                <option value="SVHTN">Sách Văn Học Trong Nước</option>
-                                <option value="SVHNN">Sách Văn Học Nước Ngoài</option>
-                            </select>
-                            <button type="submit" class="regis__bnt">Đăng ký ngay</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__top">
-                <div class="grid">
-                    <div class="grid__row">
-                        <div class="grid__colunm-5 footer__top-left">
-                            <div class="grid__row">
-                                <div class="grid__colunm-4 footer__top-box">
-                                    <h3 class="footer__top-title">Về công ty</h3>
-                                    <ul class="footer__top-list">
-                                        <li class="footer__top-item">
-                                            <a href="">Giới thiệu về công ty</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Tuyển dụng</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Góc báo chí</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Chương trình đại lý</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Chính sách bảo mật</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Chính sách đổi trả</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="grid__colunm-4 footer__top-box">
-                                    <h3 class="footer__top-title">Trợ giúp</h3>
-                                    <ul class="footer__top-list">
-                                        <li class="footer__top-item">
-                                            <a href="">Quy định sử dụng</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Hướng dẫn mua hàng</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Phương thức thanh toán</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Phương thức vận chuyển</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Các câu hỏi thường gặp</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Ứng dụng đọc ebook</a>
-                                        </li>
-                                    </ul>
-                                </div>
 
-                                <div class="grid__colunm-4 footer__top-box">
-                                    <h3 class="footer__top-title">tin tức sách</h3>
-                                    <ul class="footer__top-list">
-                                        <li class="footer__top-item">
-                                            <a href="">Tin tức</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Chân dung</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Điểm sách</a>
-                                        </li>
-                                        <li class="footer__top-item">
-                                            <a href="">Phê bình</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="grid__full-width">
-                                <h3 class="footer__top-title">Tải ứng dụng trên điện thoại</h3>
-                                <div class="footer__top-sw">
-                                    <a href="">
-                                        <img src="/assets/img/icon-appstore.png" alt="" class="footer__top-sw-img" style="margin-right: 10px;">
-                                    </a>
-                                    <a href="">
-                                        <img src="/assets/img/icon-googleplay.png" alt="" class="footer__top-sw-img">
-                                    </a>
-                                </div>
+        @await Component.InvokeAsync("Footer")
 
-                            </div>
-
-                        </div>
-
-                        <div class="footer__top-right grid__colunm-7">
-                            <div class="grid__row">
-                                <div class="grid__colunm-4">
-                                    <h3 class="footer__top-title">Chấp Nhận thanh toán</h3>
-                                    <div class="footer__top-payment-box">
-                                        <img src="/assets/img/visa.jpg" alt="" class="footer__top-payment">
-                                        <img src="/assets/img/master_card.jpg" alt="" class="footer__top-payment">
-                                        <img src="/assets/img/atm.jpg" alt="" class="footer__top-payment">
-                                        <img src="/assets/img/jcb.jpg" alt="" class="footer__top-payment">
-                                        <img src="/assets/img/cod.jpg" alt="" class="footer__top-payment">
-                                        <img src="/assets/img/payoo.jpg" alt="" class="footer__top-payment">
-                                    </div>
-                                    <h3 class="footer__top-title">thanh toán an toàn</h3>
-                                    <div class="footer__top-payment-box">
-                                        <img src="/assets/img/verify_visa.jpg" alt="" class="footer__top-payment">
-                                        <img src="/assets/img/mastercard_securecode.jpg" alt="" class="footer__top-payment">
-                                        <img src="/assets/img/onepay.jpg" alt="" class="footer__top-payment">
-                                    </div>
-                                </div>
-                                <div class="grid__colunm-4">
-                                    <h3 class="footer__top-title">Đối tác vận chuyển</h3>
-                                    <div class="footer__top-partner">
-                                        <img src="/assets/img/KhoSach-logo.png" alt="" class="footer__top-shiper">
-                                        <img src="/assets/img/vn-post.jpg" alt="" class="footer__top-shiper">
-                                        <img src=./assets/img/dhl.jpg" alt="" class="footer__top-shiper">
-                                    </div>
-                                </div>
-                                <div class="grid__colunm-4">
-                                    <h3 class="footer__top-title">Đối tác bán hàng</h3>
-                                    <div class="footer__top-partner">
-                                        <img src="/assets/img/lazada.jpg" alt="" class="footer__top-seller">
-                                        <img src="/assets/img/shopee.jpg" alt="" class="footer__top-seller">
-                                        <img src="/assets/img/amazon.jpg" alt="" class="footer__top-seller">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer__mid">
-                <div class="grid">
-                    <h3 class="footer__top-title">Thường được tìm kiếm</h3>
-                    <div class="tmp"></div>
-                    <div class="footer__mid-common">
-                        <ul>
-                            <li><a href="">truyện dan brown</a></li>
-                            <li><a href="">sách warren buffett</a></li>
-                            <li><a href="">sách digital marketing</a></li>
-                            <li><a href="">sách cho con</a></li>
-                            <li><a href="">sách hay về gia đình</a></li>
-                            <li><a href="">giáo trình tiếng anh trẻ em</a></li>
-                            <li><a href="">sách hay về kinh tế</a></li>
-                            <li><a href="">sách về đầu tư</a></li>
-                            <li><a href="">sách doanh nhân</a></li>
-                            <li><a href="">sach hoc tieng trung</a></li>
-                            <li><a href="">tiểu thuyết tình yêu</a></li>
-                            <li><a href="">sách y học</a></li>
-                            <li><a href="">tủ sách gia đình</a></li>
-                            <li><a href="">sách dạy kỹ năng giao tiếp</a></li>
-                            <li><a href="">sách blockchain</a></li>
-                            <li><a href="">sách du học</a></li>
-                            <li><a href="">sách làm giàu</a></li>
-                            <li><a href="">sách phong thủy cổ</a></li>
-                            <li><a href="">sách về đầu tư chứng khoán</a></li>
-                            <li><a href="">sách về quản trị kinh doanh</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer__coppy-r">
-                <div class="grid">
-                    <div class="footer__coppy-r-top">
-                        <a href="">
-                            <img src="/assets/img/logo_so_cong_thuong.png" alt="" class="footer__coppy-r-check">
-                        </a>
-                        <div class="footer__ad">
-                            <p>CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ MÊ KÔNG COM</p>
-                            <span>Địa chỉ: 52/2 Thoại Ngọc Hầu, Phường Hòa Thạnh, Quận Tân Phú, Hồ Chí Minh</span>
-                            <br>
-                            <span>MST: 0303615027 do Sở Kế Hoạch Và Đầu Tư Tp.HCM cấp ngày 10/03/2011</span>
-                            <br>
-                            <span>Tel: 028.73008182 - Fax: 028.39733234 - Email: <a href="">hotro@vinabook.com</a></span>
-                        </div>
-                    </div>
-
-                    <div class="footer__coppy-r-bot">
-                        <p>Website cùng hệ thống</p>
-                        <div class="footer__coppy-r-bot-logo">
-                            <img src="/assets/img/logo_hotdeal_2x.png" alt="" style="margin-right: 10px;">
-                            <img src="/assets/img/logo_yesgo_2x.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
     </div>
-    
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/index.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

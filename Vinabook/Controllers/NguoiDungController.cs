@@ -52,14 +52,19 @@ namespace Vinabook.Controllers
             return View();
         }
 
+        public IActionResult DangNhap()
+        {
+            return View();
+        }
         [HttpPost]
         // Dang Nhap
         public IActionResult DangNhap(string ten, string matkhau)
         {
-            var NguoiDung = _context.NguoiDung.Where(m => m.TenNguoiDung == ten && m.MatKhau == matkhau).FirstOrDefault<NguoiDung>();
+            var NguoiDung = _context.NguoiDung.Where(m => (m.TenNguoiDung == ten || m.Email == ten) && m.MatKhau == matkhau).FirstOrDefault<NguoiDung>();
             if (NguoiDung == null || _context.NguoiDung == null)
             {
-                return NotFound();
+                TempData["ThongBao"] = "Sai thông tin tài khoản hoặc mật khẩu";
+                return RedirectToAction("Index", "Home");
             }
             var claims = new List<Claim>
             {

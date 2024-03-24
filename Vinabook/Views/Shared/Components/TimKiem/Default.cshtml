@@ -5,67 +5,20 @@
 }
 @model IEnumerable<Vinabook.Models.DanhMuc>
 
-<div class="header-mid" id="headerFixed">
-    <div class="grid">
-        <div class="header-mid__container">
-            <a href="/home">
-                <img src="/assets/img/KhoSach-logo.png" alt="" class="header-mid__logo">
-            </a>
-            <div class="header-mid__search">
-                <form asp-controller="Sach" asp-action="Index" style="display: flex;">
-                    <select name="batma">
-                        <option value="0">Chọn Thể Loại</option>
-                        @foreach (var item in Model)
-                        {
-                            <option value="@item.MaDanhMuc">@item.Ten</option>
+<div class="header-mid__search">
+    <form asp-controller="Sach" asp-action="Index" style="display: flex;">
+        <select name="batma">
+            <option value="0">Chọn Thể Loại</option>
+            @foreach (var item in Model)
+            {
+                <option value="@item.MaDanhMuc">@item.Ten</option>
 
-                        }
-                    </select>
-                    <input type="text" placeholder="Tìm kiếm tựa sách, tác giả" class="header-mid__search-box" name="tukhoa" style="padding-left: 20px;">
-                    <button class="header-mid__search-btn" type="submit">Tìm sách</button>
-                </form>
+            }
+        </select>
+        <input type="text" placeholder="Tìm kiếm tựa sách, tác giả" class="header-mid__search-box" name="tukhoa" style="padding-left: 20px;">
+        <button class="header-mid__search-btn" type="submit">Tìm sách</button>
+    </form>
 
-            </div>
-
-            <div class="header-mid__cart">
-                <i class="bi bi-cart3 header-mid__cart-icon"></i>
-                <span class="header-mid__cart-count">1</span>
-                <div class="cart-box cart-box__full cart-box-none">
-                    <!-- <p>Giỏ hàng rỗng</p> -->
-                    <div class="cart-books">
-                        <div class="cart-book">
-                            <div class="cart-book__img">
-                                <img src="/assets/img/rungnauy.jpg" alt="">
-                            </div>
-                            <div class="cart-book__text">
-                                <a href="" class="cart-book__link"><b>Rừng Nauy (Tái Bản 2021)</b></a>
-                                <p>
-                                    1 x <span class="cart-book__price">128.000đ</span>
-                                </p>
-                            </div>
-                            <i class="bi bi-x-circle-fill exit-icon"></i>
-                        </div>
-
-                    </div>
-                    <div class="cart-book__total">
-
-                        <div class="cart-book__total-text">
-                            Tổng cộng:
-                            <span>128.000đ</span>
-
-                        </div>
-
-                        <a href="/assets/cart.html" class="btn__buy" style="padding: 10px 20px; font-weight: 550;">XEM GIỎ HÀNG</a>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="header-mid__right">
-                <a class="header-mid__right-log" style="cursor: pointer;" onclick="openLogin()">Đăng nhập</a>
-                <a href="" class="header-mid__right-register">Đăng ký</a>
-            </div>
-
-        </div>
-    </div>
 </div>
+
+

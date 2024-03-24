@@ -1,0 +1,205 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<header class="header">
+    <div class="header-top">
+        <div class="grid">
+            <ul class="header-top__list">
+                <li class="header-top__list-item header-top__list-item-separator">
+                    <i class="bi bi-truck header-top__icon"></i>
+                    Miễn phí giao hàng
+                    <div class="decription">
+                        <p class="decription-p">
+                            Miễn phí giao hàng toàn quốc cho Đơn hàng từ 250.000đ.
+                        </p>
+                    </div>
+                </li>
+                <li class="header-top__list-item header-top__list-item-separator">
+                    <i class="bi bi-book header-top__icon"></i>
+                    80.000 tựa sách
+                    <div class="decription">
+                        <p class="decription-p">
+                            Với hơn 80,000 đầu sách trong mọi lĩnh vực (và tiếp tục tăng mỗi ngày), Kho sách tự hào là nhà sách trên mạng có số lượng đầu sách lớn nhất Việt Nam, bạn có thể tìm được bất kỳ quyển sách nào cho mọi nhu cầu đọc sách của bạn.
+                        </p>
+                    </div>
+                </li>
+                <li class="header-top__list-item">
+                    <i class="bi bi-phone header-top__icon"></i>
+                    <a href="" class="header-top__list-link">KhoSach Reader</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header-mid" id="headerFixed">
+        <div class="grid">
+            <div class="header-mid__container">
+                <a href="/home">
+                    <img src="/assets/img/KhoSach-logo.png" alt="" class="header-mid__logo">
+                </a>
+
+                @await Component.InvokeAsync("TimKiem")
+
+                <div class="header-mid__cart">
+                    <i class="bi bi-cart3 header-mid__cart-icon"></i>
+                    <span class="header-mid__cart-count">1</span>
+                    <div class="cart-box cart-box__full cart-box-none">
+                        <!-- <p>Giỏ hàng rỗng</p> -->
+                        <div class="cart-books">
+                            <div class="cart-book">
+                                <div class="cart-book__img">
+                                    <img src="/assets/img/rungnauy.jpg" alt="">
+                                </div>
+                                <div class="cart-book__text">
+                                    <a href="" class="cart-book__link"><b>Rừng Nauy (Tái Bản 2021)</b></a>
+                                    <p>
+                                        1 x <span class="cart-book__price">128.000đ</span>
+                                    </p>
+                                </div>
+                                <i class="bi bi-x-circle-fill exit-icon"></i>
+                            </div>
+
+                        </div>
+                        <div class="cart-book__total">
+
+                            <div class="cart-book__total-text">
+                                Tổng cộng:
+                                <span>128.000đ</span>
+
+                            </div>
+
+                            <a href="/assets/cart.html" class="btn__buy" style="padding: 10px 20px; font-weight: 550;">XEM GIỎ HÀNG</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="header-mid__right">
+                    <a class="header-mid__right-log" style="cursor: pointer;" onclick="openLogin()">Đăng nhập</a>
+                    <a href="" class="header-mid__right-register">Đăng ký</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal" id="loginForm">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <form asp-controller="NguoiDung" asp-action="DangNhap">
+                <div class="login-form ">
+                    <button class="login-exit" id="login-exit_btn" onclick="closeLoginForm()">
+                        x
+                    </button>
+                    <h3 class="login__title">Đăng nhập</h3>
+                    <table class="login-box">
+                        <tr>
+                            <td>
+                                <label for="" class="login-label important-info">Email | Tên Đăng Nhập </label>
+                            </td>
+                            <td colspan="2">
+                                <input type="text" name="ten" id="" class="login-input">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="" class="login-label important-info">Mật khẩu</label>
+                            </td>
+                            <td colspan="2">
+                                <input type="text" name="matkhau" id="" class="login-input">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="login-remember-box">
+                                <input type="checkbox" name="" id="" class="login-checkbox">
+                                <label for="" class="login-remember">Ghi nhớ thông tin</label>
+                            </td>
+                            <td>
+                                <a href="" class="login__forgot">Quên mật khẩu?</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button class="login-btn" type="submit">
+                                    ĐĂNG NHẬP
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <h5 class="login-footer-title">Chưa có tài khoản vui lòng <a href="" class="regis-btn">ĐĂNG kÝ</a></h5>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="login__bottom">
+                        <p class="login__bottom-tile">Hoặc đăng nhập bằng:</p>
+                        <a href="" class="login__google">
+                            <img src="/assets/img/google_signin_dark.png" alt="">
+                        </a>
+                        <a href="" class="login__facebook">
+                            <img src="/assets/img/facebook_signin_dark.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="header-bot">
+        <div class="grid ">
+            <div class="header-bot__container grid__row">
+                <div class="grid__colunm-3">
+                    <div class="header-bot__listbooks">
+                        <i class="bi bi-list header-bot__listbooks-icon"></i>
+                        <h3 class="header-bot__listbooks-title ">Danh Mục Sách</h3>
+                        <i class="bi bi-chevron-down header-bot__listbooks-icon-down"></i>
+
+                        @await Component.InvokeAsync("Navbar")
+
+                    </div>
+
+                </div>
+                <div class="grid__colunm-9">
+                    <ul class="header-bot__navbar">
+                        <a href="/DanhMuc">
+                        <li class="header-bot__navbar-li">Danh Mục</li>
+                        </a>
+                        <a href="/Sach">
+                        <li class="header-bot__navbar-li">Sách</li>
+                        </a>
+                        <a href="/NguoiDung">
+                        <li class="header-bot__navbar-li">Người Dùng</li>
+                        </a>
+                    </ul>
+                    <!-- <div class="header-bot__help">
+                        <div class="header-bot__help-contact">
+                            <i class="bi bi-telephone"></i>
+                            Hotline: <b>1900 1234</b>
+                            <div class="decription">
+                                <p class="decription-p" style="color: var(--text-color);">
+                                    Tổng đài chăm sóc và Hỗ trợ Khách hàng hoạt động suốt 6 ngày trong tuần
+                                    Thứ 2 - 6: hoạt động từ 8:00 - 17:00
+                                    T7 - Chủ nhật: Quý khách vui lòng để lại tin nhắn qua email hotro@gmail.com Chúng tôi sẽ xử lý email sớm nhất giúp quý khách.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="header-bot__help-support">
+                            <i class="bi bi-chat-dots"></i>
+                            <a href="" class="header-bot__help-support-link">
+                                Hỗ trợ trực tuyến
+                            </a>
+                        </div>
+
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
