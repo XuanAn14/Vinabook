@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -46,11 +47,6 @@ namespace Vinabook.Controllers
             return View(nguoiDung);
         }
 
-        // GET: NguoiDung/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
 
         public IActionResult DangNhap()
         {
@@ -86,11 +82,20 @@ namespace Vinabook.Controllers
             return View("DangNhap");
         }
 
+        // GET: NguoiDung/Create
+        [Authorize(Roles = "Admin")]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+
         // POST: NguoiDung/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create([Bind("MaNguoiDung,TenNguoiDung,Email,NgaySinh,MatKhau,VaiTro")] NguoiDung nguoiDung)
         {
             if (ModelState.IsValid)
@@ -103,6 +108,7 @@ namespace Vinabook.Controllers
         }
 
         // GET: NguoiDung/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -123,6 +129,7 @@ namespace Vinabook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("MaNguoiDung,TenNguoiDung,Email,NgaySinh,MatKhau,VaiTro")] NguoiDung nguoiDung)
         {
             if (id != nguoiDung.MaNguoiDung)
@@ -154,6 +161,7 @@ namespace Vinabook.Controllers
         }
 
         // GET: NguoiDung/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -174,6 +182,7 @@ namespace Vinabook.Controllers
         // POST: NguoiDung/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var nguoiDung = await _context.NguoiDung.FindAsync(id);

@@ -167,37 +167,47 @@
 
                 </div>
                 <div class="grid__colunm-9">
-                    <ul class="header-bot__navbar">
-                        <a href="/DanhMuc">
-                        <li class="header-bot__navbar-li">Danh Mục</li>
-                        </a>
-                        <a href="/Sach">
-                        <li class="header-bot__navbar-li">Sách</li>
-                        </a>
-                        <a href="/NguoiDung">
-                        <li class="header-bot__navbar-li">Người Dùng</li>
-                        </a>
-                    </ul>
-                    <!-- <div class="header-bot__help">
-                        <div class="header-bot__help-contact">
-                            <i class="bi bi-telephone"></i>
-                            Hotline: <b>1900 1234</b>
-                            <div class="decription">
-                                <p class="decription-p" style="color: var(--text-color);">
-                                    Tổng đài chăm sóc và Hỗ trợ Khách hàng hoạt động suốt 6 ngày trong tuần
-                                    Thứ 2 - 6: hoạt động từ 8:00 - 17:00
-                                    T7 - Chủ nhật: Quý khách vui lòng để lại tin nhắn qua email hotro@gmail.com Chúng tôi sẽ xử lý email sớm nhất giúp quý khách.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="header-bot__help-support">
-                            <i class="bi bi-chat-dots"></i>
-                            <a href="" class="header-bot__help-support-link">
-                                Hỗ trợ trực tuyến
+                    
+                    @if(User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <ul class="header-bot__navbar">
+                            <a href="/DanhMuc">
+                                <li class="header-bot__navbar-li">Danh Mục</li>
                             </a>
-                        </div>
+                            <a href="/Sach">
+                                <li class="header-bot__navbar-li">Sách</li>
+                            </a>
+                            <a href="/NguoiDung">
+                                <li class="header-bot__navbar-li">Người Dùng</li>
+                            </a>
+                        </ul>
+                    }
+                    else
+                    {
+                        <div class="header-bot__help">
+                            <div class="header-bot__help-contact">
+                                <i class="bi bi-telephone"></i>
+                                Hotline: <b>1900 1234</b>
+                                <div class="decription">
+                                    <p class="decription-p" style="color: var(--text-color);">
+                                        Tổng đài chăm sóc và Hỗ trợ Khách hàng hoạt động suốt 6 ngày trong tuần
+                                        Thứ 2 - 6: hoạt động từ 8:00 - 17:00
+                                        T7 - Chủ nhật: Quý khách vui lòng để lại tin nhắn qua email hotro@gmail.com Chúng tôi sẽ xử lý email sớm nhất giúp quý khách.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="header-bot__help-support">
+                                <i class="bi bi-chat-dots"></i>
+                                <a href="" class="header-bot__help-support-link">
+                                    Hỗ trợ trực tuyến
+                                </a>
+                            </div>
 
-                    </div> -->
+                        </div>
+                    }
+
+                
+                    
                 </div>
             </div>
         </div>
