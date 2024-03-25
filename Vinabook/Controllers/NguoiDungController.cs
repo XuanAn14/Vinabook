@@ -79,7 +79,7 @@ namespace Vinabook.Controllers
         public IActionResult DangXuat()
         {
             HttpContext.SignOutAsync();
-            return View("DangNhap");
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: NguoiDung/Create

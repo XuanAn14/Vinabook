@@ -2,6 +2,14 @@
 
 @{
     ViewData["Title"] = "Index";
+    @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin")))
+    {
+        Layout = "_Admin";
+    }
+    else
+    {
+        Layout = "_Sach";
+    }
 }
 
 <h1>Index</h1>

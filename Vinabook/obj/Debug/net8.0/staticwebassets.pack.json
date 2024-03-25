@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Vinabook.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\admin.css",
+      "PackagePath": "staticwebassets\\assets\\css\\admin.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\author.css",
       "PackagePath": "staticwebassets\\assets\\css\\author.css"
     },
@@ -367,6 +371,10 @@
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\img\\vn-post.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\vn-post.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\admin.js",
+      "PackagePath": "staticwebassets\\assets\\js\\admin.js"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\author.js",

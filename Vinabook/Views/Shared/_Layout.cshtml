@@ -7,7 +7,6 @@
     <title>KhoSach</title>
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
@@ -18,9 +17,9 @@
 
         @if (TempData["ThongBao"] != null)
         {
-            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <div id="alertClose" class="alert alert-warning alert-dismissible fade show" role="alert" style="z-index:999">
                 @TempData["ThongBao"]
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <button type="button" class="close" onclick="closeAlert()">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>

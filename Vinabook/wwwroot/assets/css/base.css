@@ -273,14 +273,12 @@ body {
     width: 20px;
     height: 20px;
     font-weight: 500;
-    padding: 0px 0px 7px 7px;
 }
 
 .header-mid__cart-icon {
     font-size: 26px;
     color: var(--primary-color);
     position: absolute;
-    top: 4px;
 }
 
 .cart-box {
@@ -402,7 +400,6 @@ body {
     position: absolute;
     border-right: 1px solid #000;
     height: 16px;
-    top: 4px;
     right: 44%;
 }
 
@@ -1223,4 +1220,59 @@ body {
     margin-left: 4px;
     cursor: pointer;
     border-radius: 4px;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    z-index: 999;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.alert-dismissible {
+    padding-right: 4rem;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input {
+    overflow: visible;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .75rem 1.25rem;
+    color: inherit;
+}
+
+.close:not(:disabled):not(.disabled) {
+    cursor: pointer;
 }

@@ -77,8 +77,15 @@
                 </div>
 
                 <div class="header-mid__right">
-                    <a class="header-mid__right-log" style="cursor: pointer;" onclick="openLogin()">Đăng nhập</a>
-                    <a href="" class="header-mid__right-register">Đăng ký</a>
+                    @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") ||User.IsInRole("khachhang")))
+                    {
+                        <a class="header-mid__right-register" href="/NguoiDung/DangXuat">Đăng Xuất</a>
+                    }
+                    else
+                    {
+                        <a class="header-mid__right-log" style="cursor: pointer;" onclick="openLogin()">Đăng nhập</a>
+                        <a href="" class="header-mid__right-register">Đăng ký</a>
+                    }
                 </div>
 
             </div>
@@ -172,13 +179,13 @@
                     {
                         <ul class="header-bot__navbar">
                             <a href="/DanhMuc">
-                                <li class="header-bot__navbar-li">Danh Mục</li>
+                                <li class="header-bot__navbar-li">Quản Lý Danh Mục</li>
                             </a>
                             <a href="/Sach">
-                                <li class="header-bot__navbar-li">Sách</li>
+                            <li class="header-bot__navbar-li">Quản Lý Sách</li>
                             </a>
                             <a href="/NguoiDung">
-                                <li class="header-bot__navbar-li">Người Dùng</li>
+                            <li class="header-bot__navbar-li">Quản Lý Người Dùng</li>
                             </a>
                         </ul>
                     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bTGhnrZDiKJrepmupV2rx84sjiL2POs2m+svinCGW2Q=",
+  "Hash": "KouCwOZ90vay2Dc/7I4fSgcABHqAaSfyLr8i54GUfx8=",
   "Source": "Vinabook",
   "BasePath": "_content/Vinabook",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Vinabook.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\admin.css",
+      "SourceId": "Vinabook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\",
+      "BasePath": "_content/Vinabook",
+      "RelativePath": "assets/css/admin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\admin.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\author.css",
@@ -1782,6 +1801,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\vn-post.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\admin.js",
+      "SourceId": "Vinabook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\",
+      "BasePath": "_content/Vinabook",
+      "RelativePath": "assets/js/admin.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\admin.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\Vinabook\\Vinabook\\wwwroot\\assets\\js\\author.js",

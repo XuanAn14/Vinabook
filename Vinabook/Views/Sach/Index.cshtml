@@ -2,15 +2,23 @@
 
 @{
     ViewData["Title"] = "Index";
-    Layout = "_Sach";
+    @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin")))
+    {
+        Layout = "_Admin";
+    }
+    else
+    {
+        Layout = "_Sach";
+    }
 }
+@if (User.Identity.IsAuthenticated && (User.IsInRole("Admin")))
+{
+    <h1>Index</h1>
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
     <thead>
         <tr>
             <th>
@@ -69,7 +77,10 @@
         </tr>
 }
     </tbody>
-</table>
+    </table>
+}
+else
+{
 <div class="grid__row category-right__wrapper">
     @foreach (var item in Model)
     {
@@ -86,4 +97,5 @@
             </div>
         </div>
     }
-</div>
+</div>   
+}

@@ -36,3 +36,10 @@ function closeLoginForm() {
 
 var listbooks__list = document.querySelector(".listbooks-list");
 listbooks__list.classList.remove("listbooks_none");
+
+
+// alert close
+var alertClose = document.getElementById("alertClose");
+function closeAlert() {
+  alertClose.style.setProperty("display","none")
+}
