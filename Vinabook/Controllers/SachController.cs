@@ -55,7 +55,7 @@ namespace Vinabook.Controllers
             return View(sach);
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         // GET: Sach/Create
         public IActionResult Create()
         {
@@ -68,7 +68,7 @@ namespace Vinabook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Create([Bind("MaSach,Ten,TacGia,MoTa,URLAnh,Gia,SoLuong,MaDanhMuc")] Sach sach)
         {
             if (ModelState.IsValid)
@@ -82,7 +82,7 @@ namespace Vinabook.Controllers
         }
 
         // GET: Sach/Edit/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -104,7 +104,7 @@ namespace Vinabook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Edit(int id, [Bind("MaSach,Ten,TacGia,MoTa,URLAnh,Gia,SoLuong,MaDanhMuc")] Sach sach)
         {
             if (id != sach.MaSach)
@@ -136,7 +136,7 @@ namespace Vinabook.Controllers
             return View(sach);
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         // GET: Sach/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -159,7 +159,7 @@ namespace Vinabook.Controllers
         // POST: Sach/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var sach = await _context.Sach.FindAsync(id);

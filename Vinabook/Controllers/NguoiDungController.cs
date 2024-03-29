@@ -7,8 +7,10 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Vinabook.Data;
 using Vinabook.Models;
 
@@ -56,7 +58,7 @@ namespace Vinabook.Controllers
         // Dang Nhap
         public IActionResult DangNhap(string ten, string matkhau)
         {
-            var NguoiDung = _context.NguoiDung.Where(m => (m.TenNguoiDung == ten || m.Email == ten) && m.MatKhau == matkhau).FirstOrDefault<NguoiDung>();
+            var NguoiDung = _context.NguoiDung.Where(m => m.Email == ten && m.MatKhau == matkhau).FirstOrDefault<NguoiDung>();
             if (NguoiDung == null || _context.NguoiDung == null)
             {
                 TempData["ThongBao"] = "Sai thông tin tài khoản hoặc mật khẩu";
@@ -82,8 +84,34 @@ namespace Vinabook.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        //Dang Ky
+        public IActionResult DangKy()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult DangKy(NguoiDung _nguoidung)
+        {
+            var check = _context.NguoiDung.FirstOrDefault(m => (m.Email == _nguoidung.Email));
+            if (check == null)
+            {
+                _context.NguoiDung.Add(_nguoidung);
+                _nguoidung.VaiTro = "Khách hàng";
+                _context.SaveChanges();
+                TempData["ThongBaoTC"] = "Đăng ký thành công";
+                return View();
+            }
+            else
+            {
+                TempData["ThongBao"] = "Đăng ký không thành công";
+                return View();
+            }
+        }
+
         // GET: NguoiDung/Create
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public IActionResult Create()
         {
             return View();
@@ -95,7 +123,7 @@ namespace Vinabook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Create([Bind("MaNguoiDung,TenNguoiDung,Email,NgaySinh,MatKhau,VaiTro")] NguoiDung nguoiDung)
         {
             if (ModelState.IsValid)
@@ -108,7 +136,7 @@ namespace Vinabook.Controllers
         }
 
         // GET: NguoiDung/Edit/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -129,7 +157,7 @@ namespace Vinabook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Edit(int id, [Bind("MaNguoiDung,TenNguoiDung,Email,NgaySinh,MatKhau,VaiTro")] NguoiDung nguoiDung)
         {
             if (id != nguoiDung.MaNguoiDung)
@@ -161,7 +189,7 @@ namespace Vinabook.Controllers
         }
 
         // GET: NguoiDung/Delete/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -182,7 +210,7 @@ namespace Vinabook.Controllers
         // POST: NguoiDung/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var nguoiDung = await _context.NguoiDung.FindAsync(id);

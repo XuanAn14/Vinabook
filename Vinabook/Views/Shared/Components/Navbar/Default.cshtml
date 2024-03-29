@@ -10,7 +10,7 @@
     @foreach (var item in Model)
     {
         <li class="listbooks-list__item">
-            @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin")))
+            @if (User.Identity.IsAuthenticated && (User.IsInRole("Quản lý")))
             {
                 <a href="/DanhMuc" class="listbooks-list__link">
                     @item.Ten

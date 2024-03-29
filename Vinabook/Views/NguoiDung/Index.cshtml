@@ -2,9 +2,9 @@
 
 @{
     ViewData["Title"] = "Index";
-    @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin")))
+    @if (User.Identity.IsAuthenticated && (User.IsInRole("Quản lý")))
     {
-        Layout = "_Admin";
+        Layout = "_QuanLy";
     }
     else
     {

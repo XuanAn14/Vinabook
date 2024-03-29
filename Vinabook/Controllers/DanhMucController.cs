@@ -44,7 +44,7 @@ namespace Vinabook.Controllers
             return View(danhMuc);
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         // GET: DanhMuc/Create
         public IActionResult Create()
         {
@@ -56,7 +56,7 @@ namespace Vinabook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Create([Bind("MaDanhMuc,Ten")] DanhMuc danhMuc)
         {
             if (ModelState.IsValid)
@@ -69,7 +69,7 @@ namespace Vinabook.Controllers
         }
 
         // GET: DanhMuc/Edit/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]    
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -90,7 +90,7 @@ namespace Vinabook.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Edit(int id, [Bind("MaDanhMuc,Ten")] DanhMuc danhMuc)
         {
             if (id != danhMuc.MaDanhMuc)
@@ -122,7 +122,7 @@ namespace Vinabook.Controllers
         }
 
         // GET: DanhMuc/Delete/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -143,7 +143,7 @@ namespace Vinabook.Controllers
         // POST: DanhMuc/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Quản lý")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var danhMuc = await _context.DanhMuc.FindAsync(id);

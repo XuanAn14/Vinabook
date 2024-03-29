@@ -77,14 +77,14 @@
                 </div>
 
                 <div class="header-mid__right">
-                    @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") ||User.IsInRole("khachhang")))
+                    @if (User.Identity.IsAuthenticated && (User.IsInRole("Quản lý") ||User.IsInRole("Khách hàng")))
                     {
                         <a class="header-mid__right-register" href="/NguoiDung/DangXuat">Đăng Xuất</a>
                     }
                     else
                     {
                         <a class="header-mid__right-log" style="cursor: pointer;" onclick="openLogin()">Đăng nhập</a>
-                        <a href="" class="header-mid__right-register">Đăng ký</a>
+                        <a href="/NguoiDung/DangKy" class="header-mid__right-register">Đăng ký</a>
                     }
                 </div>
 
@@ -105,7 +105,7 @@
                     <table class="login-box">
                         <tr>
                             <td>
-                                <label for="" class="login-label important-info">Email | Tên Đăng Nhập </label>
+                                <label for="" class="login-label important-info">Email</label>
                             </td>
                             <td colspan="2">
                                 <input type="text" name="ten" id="" class="login-input">
@@ -175,7 +175,7 @@
                 </div>
                 <div class="grid__colunm-9">
                     
-                    @if(User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    @if(User.Identity.IsAuthenticated && User.IsInRole("Quản lý"))
                     {
                         <ul class="header-bot__navbar">
                             <a href="/DanhMuc">
