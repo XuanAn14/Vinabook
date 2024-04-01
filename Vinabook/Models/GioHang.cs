@@ -1,35 +1,24 @@
-﻿namespace Vinabook.Models
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Vinabook.Infrastructure;
+
+namespace Vinabook.Models
 {
     public class GioHang
     {
-        public List<DongSanPham> DongGioHang { get; set; } = new List<DongSanPham>();
-        public void ThemMuc(Sach sach, int soluong)
+        public List<DongGioHang> dongGioHang;
+        public decimal TongTien() => dongGioHang.Sum(e => e.SoLuong * e.Gia);
+        public class DongGioHang
         {
-            DongSanPham? dong = DongGioHang
-                .Where(p => p.Sach.MaSach == sach.MaSach)
-                .FirstOrDefault();
-            if(dong == null)
-            {
-                DongGioHang.Add(new DongSanPham
-                {
-                    Sach = sach,
-                    SoLuong = soluong
-                });
-            }
-            else
-            {
-                dong.SoLuong += soluong;
-            }
+            public int MaSach { get; set; }
+            public string Ten { get; set; }
+            public string URLAnh {  get; set; }
+            public decimal Gia { get; set; }
+            public int SoLuong { get; set; }
+            public decimal ThanhTien => SoLuong * Gia;
         }
-        public void XoaMuc(Sach sach) => DongGioHang.RemoveAll(l => l.Sach.MaSach == sach.MaSach);
-        public decimal TongTien() => (decimal)DongGioHang.Sum(e => e.Sach.Gia * e.SoLuong);
-        public void Xoa() => DongGioHang.Clear();
     }
 
-    public class DongSanPham
-    {
-        public int MaDong {  get; set; }
-        public Sach Sach { get; set; } = new();
-        public int SoLuong { get; set; }
-    }
 }

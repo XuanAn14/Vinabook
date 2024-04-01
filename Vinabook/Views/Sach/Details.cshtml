@@ -136,7 +136,7 @@
                 <i class="bi bi-check-circle-fill book-status__icon"></i>
                 Có hàng
             </div>
-            <a href="/GioHang/ThemGioHang/maSach=@Model.MaSach">
+            <a asp-action="ThemVaoGio" asp-controller="GioHang" asp-route-id="@Model.MaSach">
                 <button class="btn__buy" style="width: 100%;">
                     <i class="bi bi-cart4 btn__buy-icon"></i>
                     Mua Ngay

@@ -7,13 +7,13 @@ namespace Vinabook.Models
     {
         [Key]
         public int MaSach { get; set; }
-        public string Ten {  get; set; }
+        public string? Ten {  get; set; }
 
-        public string TacGia { get; set; }
+        public string? TacGia { get; set; }
 
-        public string MoTa { get; set; }
+        public string? MoTa { get; set; }
 
-        public string URLAnh {  get; set; }
+        public string? URLAnh {  get; set; }
 
         public decimal Gia { get; set; }
 
