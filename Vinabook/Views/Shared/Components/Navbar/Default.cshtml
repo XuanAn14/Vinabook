@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model IEnumerable<Vinabook.Models.DanhMuc>
+
+<form asp-controller="Sach" asp-action="Index" class="header-bot__listbooks" id="myForm">
+    <i class="bi bi-list header-bot__listbooks-icon"></i>
+    <span class=" header-bot__listbooks-title">Danh Mục Sách</span>
+    <i class="bi bi-chevron-down header-bot__listbooks-icon-down"></i>
+    <select size="@Model.Count()" id="categorySelect" class="listbooks-list listbooks_none" name="batma">
+        <option value="0" class="listbooks-list__item"></option>
+        @foreach (var item in Model)
+        {
+            <option value="@item.MaDanhMuc" class="listbooks-list__item">@item.Ten</option>
+        }
+    </select>
+</form>
+
+<script>
+    document.getElementById("categorySelect").addEventListener("change", function () {
+        document.getElementById("myForm").submit();
+    });
+</script>

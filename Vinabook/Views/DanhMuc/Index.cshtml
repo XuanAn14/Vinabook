@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Vinabook.Models.DanhMuc>
+
+@{
+    ViewData["Title"] = "Index";
+    @if (User.Identity.IsAuthenticated && (User.IsInRole("Quản lý")))
+    {
+        Layout = "_QuanLy";
+    }
+    else
+    {
+        Layout = "_Sach";
+    }
+}
+@if (User.Identity.IsAuthenticated && (User.IsInRole("Quản lý")))
+{
+
+<h1>Quản Lý Danh Mục</h1>
+
+<p>
+    <a asp-action="Create">Thêm mới danh mục</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ten)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ten)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaDanhMuc">Sửa</a> |
+                <a asp-action="Details" asp-route-id="@item.MaDanhMuc">Chi tiết</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaDanhMuc">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+}

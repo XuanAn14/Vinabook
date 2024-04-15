@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\thuctap\\Vinabook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\sach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\sach\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\sach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\sach\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\sach\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\sach\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vinabook\\Views\\Sach\\Index.cshtml",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Index.cshtml",
+              "RelativeToolTip": "Vinabook\\Views\\Sach\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T09:56:48.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Vinabook\\Views\\Sach\\Edit.cshtml",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Edit.cshtml",
+              "RelativeToolTip": "Vinabook\\Views\\Sach\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T09:56:14.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Details.cshtml",
+              "RelativeDocumentMoniker": "Vinabook\\Views\\Sach\\Details.cshtml",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Details.cshtml",
+              "RelativeToolTip": "Vinabook\\Views\\Sach\\Details.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T09:55:30.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Vinabook\\Views\\Sach\\Delete.cshtml",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Delete.cshtml",
+              "RelativeToolTip": "Vinabook\\Views\\Sach\\Delete.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T09:54:46.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Create.cshtml",
+              "RelativeDocumentMoniker": "Vinabook\\Views\\Sach\\Create.cshtml",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Create.cshtml",
+              "RelativeToolTip": "Vinabook\\Views\\Sach\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-15T09:53:59.134Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

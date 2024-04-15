@@ -1,0 +1,157 @@
+
+.header__logo {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
+.container {
+    padding-bottom: 200px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.main-tilte {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.product-title {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.product-wrapper {
+    display: flex;
+    align-items: start;
+}
+
+.product-img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+.product-name {
+    flex: 1;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-info p {
+    color: #333;
+    padding-bottom: 6px;
+}
+
+.product-info button {
+    width: 40px;
+    height: 35px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+.btn--active {
+    background: linear-gradient(to bottom , #fff,#e6e4e4);
+}
+
+.product-num {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color:  #eeeeee;
+    border-radius: 3px;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+}
+
+.product-left p {
+    margin: 0;
+}
+
+.product-right {
+    color: #333;
+    position: relative;
+}
+
+.product-right i {
+    color: #666;
+    display: block;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.bill {
+    border: 1px solid #ccc;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.bill-title {
+    text-transform: uppercase;
+    margin: 0;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    font-weight: 500;
+    color: var(--white-color);
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.bill-table {
+    width: 100%;
+    padding: 20px;
+    color: #666;
+}
+
+.bill-table tr td {
+    padding-top: 4px;
+}
+
+.bill-table__right {
+    text-align: right;
+}
+
+.cart-btn {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.cart-btn a {
+    display: inline-block;
+    min-width: 280px;
+    padding: 16px 0;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.cart-bt__back {
+    background-color: #cecdcd;
+    color: var(--white-color);
+}
+
+.cart-bt__pay {
+    color: var(--black-color);
+    background-color: #fdc92d;
+    margin-left: 30px;
+}
+

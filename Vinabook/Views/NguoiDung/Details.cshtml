@@ -1,0 +1,49 @@
+﻿@model Vinabook.Models.NguoiDung
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_QuanLy";
+}
+
+<h1>Chi Tiết</h1>
+
+<div>
+    <h4>Người Dùng</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenNguoiDung)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenNguoiDung)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NgaySinh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MatKhau)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MatKhau)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VaiTro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VaiTro)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MaNguoiDung">Chỉnh Sửa</a> |
+    <a asp-action="Index">Về danh sách người dùng</a>
+</div>

@@ -1,0 +1,173 @@
+﻿@model Vinabook.Models.Sach
+
+@{
+    ViewData["Title"] = "Details";
+    @if (User.Identity.IsAuthenticated && (User.IsInRole("Quản lý")))
+    {
+        Layout = "_QuanLy";
+    }
+    else
+    {
+        Layout = "_ChiTiet";
+    }
+    
+}
+
+
+@if (User.Identity.IsAuthenticated && (User.IsInRole("Quản lý")))
+    {
+        <h1>Chi Tiết</h1>
+
+        <div>
+    <h4>Sách</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.Ten)
+        </dt>
+        <dd class = "col-sm-10">
+@Html.DisplayFor(model => model.Ten)
+        </dd>
+        <dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.TacGia)
+        </dt>
+        <dd class = "col-sm-10">
+@Html.DisplayFor(model => model.TacGia)
+        </dd>
+        <dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.MoTa)
+        </dt>
+        <dd class = "col-sm-10">
+@Html.DisplayFor(model => model.MoTa)
+        </dd>
+        <dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.URLAnh)
+        </dt>
+        <dd class = "col-sm-10">
+@Html.DisplayFor(model => model.URLAnh)
+        </dd>
+        <dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.Gia)
+        </dt>
+        <dd class = "col-sm-10">
+@Html.DisplayFor(model => model.Gia)
+        </dd>
+        <dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.SoLuong)
+        </dt>
+        <dd class = "col-sm-10">
+@Html.DisplayFor(model => model.SoLuong)
+        </dd>
+        <dt class = "col-sm-2">
+@Html.DisplayNameFor(model => model.DanhMuc)
+        </dt>
+        <dd class = "col-sm-10">
+@Html.DisplayFor(model => model.DanhMuc.MaDanhMuc)
+        </dd>
+    </dl>
+</div>
+        <div>
+    <a asp-action="Edit" asp-route-id="@Model?.MaSach">Chỉnh Sửa</a> |
+    <a asp-action="Index">Về danh sách sách</a>
+    </div>
+}
+
+else
+{
+<div class="grid__row product-box">
+    <div class="product__wrapper grid__colunm-9">
+        <img src="@Model?.URLAnh" alt="" class="product__info-img">
+        <div class="product__info">
+            <h2 class="product__info-title">@Model?.Ten</h2>
+            <div class="product__info-author">
+                Tác giả: <a href="">@Model?.TacGia</a> <br>
+            </div>
+            <div class="product__info-rate">
+                <div class="product__info-rate-stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <a href="">(5 đánh giá . 5 bình luận)</a>
+            </div>
+            <div class="product__preview">
+                <p class="product__preview-text">
+                    @Model?.MoTa
+                </p>
+                <a href="" class="product__preview-more">Xem thêm</a>
+            </div>
+
+            <div class="product-sub">
+                <h4 class="product-sub__title">Thông tin kèm theo</h4>
+                <ul class="product-sub__list">
+                    <li class="product-sub__item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        Có dịch vụ bọc sách plastic cao cấp cho sách này
+                        (<a href=""> Xem thêm </a>)
+                    </li>
+                    <li class="product-sub__item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        Miễn phí giao hàng toàn quốc cho Đơn hàng từ 250.000đ (Áp dụng từ 1/2/2015.
+                        <a href="./register.html"> Xem chi tiết </a>)
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid__colunm-3">
+        <div class="pay-info">
+            <p class="pay-info__title">Thông tin thanh toán</p>
+            <div class="pay-info__prices">
+
+                <div class="price__sell">
+                    <span class="price__sell-text">Giá bán</span>
+                    <span class="price__sell-num">@Model?.Gia</span>
+                </div>
+                <div class="quality">
+                    <span class="quality-text">Chất lượng sách</span>
+                    <span class="quality-type">
+                        Loại A
+                        <span class="quality-type__info">
+                            (?)
+                            <div class="type-decription">
+                                <p class="type-decription-p">
+                                    Sách mới 100% do từ NXB hoặc Nhà Phát Hành chuyển qua
+                                </p>
+                                <a href="">Xem thêm >></a>
+                            </div>
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="book-status">
+                <i class="bi bi-check-circle-fill book-status__icon"></i>
+                Có hàng
+            </div>
+            <a asp-action="ThemVaoGio" asp-controller="DongGioHang" asp-route-id="@Model.MaSach">
+                <button class="btn__buy" style="width: 100%;">
+                    <i class="bi bi-cart4 btn__buy-icon"></i>
+                    Mua Ngay
+                </button>
+            </a>
+        </div>
+
+        <div class="user-rate">
+            <a href="">
+                <i class="bi bi-suit-heart-fill heart-icon"></i>
+                THÍCH
+            </a>
+            <a href="">
+                <i class="bi bi-clipboard-check-fill check-icon"></i>
+                ĐÃ ĐỌC
+            </a>
+        </div>
+    </div>
+
+
+</div>
+    
+}
+

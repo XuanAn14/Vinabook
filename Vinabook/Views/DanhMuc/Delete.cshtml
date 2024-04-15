@@ -1,0 +1,28 @@
+﻿@model Vinabook.Models.DanhMuc
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_QuanLy";
+}
+
+<h1>Xóa</h1>
+
+<h3>Xác nhận xóa danh mục</h3>
+<div>
+    <h4>Danh Mục</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ten)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ten)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="MaDanhMuc" />
+        <input type="submit" value="Xóa" class="btn btn-danger" /> |
+        <a asp-action="Index">Về danh sách danh mục</a>
+    </form>
+</div>

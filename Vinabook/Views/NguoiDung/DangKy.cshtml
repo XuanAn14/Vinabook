@@ -1,0 +1,115 @@
+﻿@model Vinabook.Models.NguoiDung
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="/assets/css/register.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="frame">
+
+
+        <div class="container">
+            <div class="register">
+                <div class="grid">
+                    <div class="breadcrumb">
+                        <ul class="breadcrumb__list" style="margin-bottom: 0;">
+                            <li class="breadcrumb__item">
+                                <a href="">
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="breadcrumb__item">
+                                <a href="">
+                                    <i class="bi bi-chevron-right"></i>
+                                    Tạo tài khoản mới
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h2 class="register__title">Chưa có tài khoản? Đăng ký ngay</h2>
+                    <div class="register-left grid__row">
+                        <div class="grid__colunm-7" style="padding-right: 0;">
+                            <div class="register__body">
+                                <h2 class="register__body-title">ĐĂNG KÝ TÀI KHOẢN</h2>
+                                <form asp-controller="NguoiDung" asp-action="DangKy">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <label for="" style="padding-right: 100px; position: relative;" class="important-info">Họ và Tên</label>
+                                            </td>
+                                            <td>
+                                                <input asp-for="TenNguoiDung" class="form-control register__body-input" placeholder="Họ và Tên" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="" class="important-info">Email</label>
+                                            </td>
+                                            <td>
+                                                <input asp-for="Email" class="form-control register__body-input"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="" class="important-info">Ngày Sinh</label>
+                                            </td>
+                                            <td>
+                                                <input asp-for="NgaySinh" class="form-control register__body-input" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="" class="important-info">Mật khẩu</label>
+                                            </td>
+                                            <td>
+                                                <input asp-for="MatKhau" class="form-control register__body-input" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <button class="login-btn">
+                                                    ĐĂNG KÝ
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" style="padding-top: 20px;">
+                                                <span class="register__footer">Bằng việc bấm nút đăng ký, bạn đã chấp nhận <a href="">chính sách bảo mật thông tin</a></span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
+                                
+
+                            </div>
+                        </div>
+                        <div class="register-right grid__colunm-4">
+                            <div class="register-others">
+                                <span class="register-other__title">Đăng nhập bằng tài khoản khác</span>
+                                <a href="#" class="register-other__google">
+                                    <img src="/assets/img/google_signin_dark.png" alt="">
+                                </a>
+                                <a href="#" class="register-other__facebook">
+                                    <img src="/assets/img/facebook_signin_dark.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/assets/js/register.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

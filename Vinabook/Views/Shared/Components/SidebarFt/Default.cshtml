@@ -1,0 +1,88 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="overlay" style="display:none"></div>
+<div class="search-section">
+    <div class="container-fluid container-xl">
+        <div class="row main-content ml-md-0">
+            <div class="sidebar col-md-3 px-0">
+                <div class="sidebar__inner ">
+                    <div class="filter-body">
+                            <h2 class="font-xbold body-font border-bottom filter-title">Lọc theo danh mục</h2>
+                            <form id="filter-cate">
+                                <div class="mb-3 filter-options" id="cusine-options">
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input type="checkbox" class="custom-control-input" val="all" checked>
+                                        <label class="custom-control-label" for="Chinese">Chinese</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input type="checkbox" class="custom-control-input" val="">
+                                        <label class="custom-control-label" for="Italian">Italian</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input type="checkbox" class="custom-control-input" id="Mexican">
+                                        <label class="custom-control-label" for="Mexican">Mexican</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input type="checkbox" class="custom-control-input" id="Thai">
+                                        <label class="custom-control-label" for="Thai">Thai</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input type="checkbox" class="custom-control-input" id="Gujarati">
+                                        <label class="custom-control-label" for="Gujarati">Gujarati</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input type="checkbox" class="custom-control-input" id="Panjabi">
+                                        <label class="custom-control-label" for="Panjabi">Panjabi</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input type="checkbox" class="custom-control-input" id="South-Indian">
+                                        <label class="custom-control-label" for="South-Indian">South Indian</label>
+                                    </div>
+                                </div>
+                            
+                            </form>
+
+                            <!-- cusine filters end -->
+                            <h2 class="font-xbold body-font border-bottom filter-title">Lọc theo giá</h2>
+                            <form id="filter-price">
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" val="all" checked>
+                                    <label class="custom-control-label" for="Chinese">Chinese</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" val="0-100">
+                                    <label class="custom-control-label" for="Italian">0 - 100.000đ</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" val="100-200">
+                                    <label class="custom-control-label" for="Chinese">100.000đ - 200.000đ</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" val="200.000đ trở lên">
+                                    <label class="custom-control-label" for="Italian">Italian</label>
+                                </div>
+
+                            </form>
+                            <button id="Filter-btn">Lọc</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.getElementById("Filter-btn").addEventListener("click", function(){
+        alert("helo");
+    })
+
+   function getSelectedChecboxes(formId){
+        var checkboxes = $( '#'+ formId + ' input[type ="checkbox"]:checked');
+        var values = []
+        checkboxes.each(function(){
+            values.push($(this).attr('val'))
+        })
+   }
+</script>
