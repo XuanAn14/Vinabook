@@ -28,7 +28,32 @@ namespace Vinabook.Controllers
             var vinabookContext = _context.Sach.Include(s => s.DanhMuc);
             return View(await vinabookContext.ToListAsync());
         }
-
+        //loc
+        [HttpPost]
+        public async Task<IActionResult> LocTheoGia(string locgia)
+        {
+            if (locgia == "0-100")
+            {
+                var vinabookContext = _context.Sach.Where(s => s.Gia <= 100000);
+                return View(await vinabookContext.ToListAsync());
+            }
+            else if(locgia == "100-200")
+            {
+                int gialoc = 200000;
+                var vinabookContext = _context.Sach.Where(s => s.Gia > 100000 && s.Gia <= gialoc);
+                return View(await vinabookContext.ToListAsync());
+            }
+            else if (locgia == ">200")
+            {
+                var vinabookContext = _context.Sach.Where(s => s.Gia > 200000);
+                return View(await vinabookContext.ToListAsync());
+            }
+            else
+            {
+                var vinabookContext = _context.Sach;
+                return View(await vinabookContext.ToListAsync());
+            }
+        }
         //Tim Kiem
         [HttpPost]
         public async Task<IActionResult> Index(int batma, string tukhoa)
