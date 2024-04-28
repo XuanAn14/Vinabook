@@ -1,6 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<Vinabook.Models.DanhMuc>
 @{
 }
 <div class="overlay" style="display:none"></div>
@@ -11,78 +9,49 @@
                 <div class="sidebar__inner ">
                     <div class="filter-body">
                             <h2 class="font-xbold body-font border-bottom filter-title">Lọc theo danh mục</h2>
-                            <form id="filter-cate">
+                        <form id="filter-cate" asp-controller="Sach" asp-action="Index">
                                 <div class="mb-3 filter-options" id="cusine-options">
                                     <div class="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" class="custom-control-input" val="all" checked>
-                                        <label class="custom-control-label" for="Chinese">Chinese</label>
+                                        <input type="radio" name="batma" class="custom-control-input" value="all" checked>
+                                    <label class="custom-control-label">all</label>
                                     </div>
-                                    <div class="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" class="custom-control-input" val="">
-                                        <label class="custom-control-label" for="Italian">Italian</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" class="custom-control-input" id="Mexican">
-                                        <label class="custom-control-label" for="Mexican">Mexican</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" class="custom-control-input" id="Thai">
-                                        <label class="custom-control-label" for="Thai">Thai</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" class="custom-control-input" id="Gujarati">
-                                        <label class="custom-control-label" for="Gujarati">Gujarati</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" class="custom-control-input" id="Panjabi">
-                                        <label class="custom-control-label" for="Panjabi">Panjabi</label>
-                                    </div>
-                                    <div class="custom-control custom-checkbox mb-3">
-                                        <input type="checkbox" class="custom-control-input" id="South-Indian">
-                                        <label class="custom-control-label" for="South-Indian">South Indian</label>
-                                    </div>
-                                </div>
-                            
-                            </form>
+                                    @foreach (var item in Model)
+                                    {
+                                        <div class="custom-control custom-checkbox mb-3">
+                                            <input type="radio" name="batma" class="custom-control-input" value="@item.MaDanhMuc">
+                                            <label class="custom-control-label">@item.Ten</label>
+                                        </div>
 
-                            <!-- cusine filters end -->
+                                    }
+                                </div>
+                                <button id="Filter-btn" type="submit">Lọc</button>
+                        </form>
+
+                            <!-- loc theo gia -->
                             <h2 class="font-xbold body-font border-bottom filter-title">Lọc theo giá</h2>
-                            <form id="filter-price">
+                        <form asp-controller="Sach" asp-action="LocTheoGia" id="filter-price">
                                 <div class="custom-control custom-checkbox mb-3">
-                                    <input type="checkbox" class="custom-control-input" val="all" checked>
-                                    <label class="custom-control-label" for="Chinese">Chinese</label>
+                                    <input type="radio" name="locgia" class="custom-control-input" value="all" checked>
+                                <label class="custom-control-label" for="">all</label>
                                 </div>
                                 <div class="custom-control custom-checkbox mb-3">
-                                    <input type="checkbox" class="custom-control-input" val="0-100">
-                                    <label class="custom-control-label" for="Italian">0 - 100.000đ</label>
+                                <input type="radio" name="locgia" class="custom-control-input" value="0-100">
+                                    <label class="custom-control-label" for="">0 - 100.000đ</label>
                                 </div>
                                 <div class="custom-control custom-checkbox mb-3">
-                                    <input type="checkbox" class="custom-control-input" val="100-200">
-                                    <label class="custom-control-label" for="Chinese">100.000đ - 200.000đ</label>
+                                <input type="radio" name="locgia" class="custom-control-input" value="100-200">
+                                    <label class="custom-control-label" for="">100.000đ - 200.000đ</label>
                                 </div>
                                 <div class="custom-control custom-checkbox mb-3">
-                                    <input type="checkbox" class="custom-control-input" val="200.000đ trở lên">
-                                    <label class="custom-control-label" for="Italian">Italian</label>
+                                <input type="radio" name="locgia" class="custom-control-input" value=">200">
+                                <label class="custom-control-label" for="">200.000đ trở lên</label>
                                 </div>
-
-                            </form>
-                            <button id="Filter-btn">Lọc</button>
+                            <button id="Filter-btn" type="submit">Lọc</button>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<script>
-    document.getElementById("Filter-btn").addEventListener("click", function(){
-        alert("helo");
-    })
-
-   function getSelectedChecboxes(formId){
-        var checkboxes = $( '#'+ formId + ' input[type ="checkbox"]:checked');
-        var values = []
-        checkboxes.each(function(){
-            values.push($(this).attr('val'))
-        })
-   }
-</script>
