@@ -110,6 +110,30 @@ namespace Vinabook.Controllers
             }
         }
 
+        //Doi mat khau
+        public IActionResult DoiMatKhau()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult DoiMatKhau(string matkhaucu, string matkhaumoi)
+        {
+            var nguoidung = _context.NguoiDung.FirstOrDefault(u => u.MatKhau == matkhaucu);
+            if (nguoidung != null)
+            {
+                nguoidung.MatKhau = matkhaumoi;
+                _context.SaveChanges();
+                TempData["ThongBaoTC"] = "Đổi mật khẩu thành công";
+                return View();
+            }
+            else
+            {
+                TempData["ThongBao"] = "Đổi mật khẩu thất bại, mật khẩu cũ không khớp!";
+                return View();
+            }
+        }
         // GET: NguoiDung/Create
         [Authorize(Roles = "Quản lý")]
         public IActionResult Create()

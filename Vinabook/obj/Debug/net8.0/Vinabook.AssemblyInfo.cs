@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vinabook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd24526685cc52fbd661a05b0a3e3ca78c6a0632")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c2317223030ab550fc55d769c809bbb14b3e0db")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vinabook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vinabook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

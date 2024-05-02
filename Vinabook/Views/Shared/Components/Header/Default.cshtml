@@ -79,7 +79,8 @@
                 <div class="header-mid__right">
                     @if (User.Identity.IsAuthenticated && (User.IsInRole("Quản lý") ||User.IsInRole("Khách hàng")))
                     {
-                        <a class="header-mid__right-register" href="/NguoiDung/DangXuat">Đăng Xuất</a>
+                        <a class="header-mid__right-logout" href="/NguoiDung/DangXuat">Đăng xuất</a>
+                        <a class="header-mid__right-register" href="/NguoiDung/DoiMatKhau">Đổi mật khẩu</a>
                     }
                     else
                     {

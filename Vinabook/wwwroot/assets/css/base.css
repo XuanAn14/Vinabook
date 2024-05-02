@@ -407,6 +407,15 @@ body {
     right: 44%;
 }
 
+.header-mid__right-logout::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-right: 1px solid #000;
+    height: 16px;
+    right: 55%;
+}
+
 .header-mid__right-register {
     margin-left: 12px;
 }
