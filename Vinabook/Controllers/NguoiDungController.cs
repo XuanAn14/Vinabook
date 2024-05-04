@@ -105,7 +105,7 @@ namespace Vinabook.Controllers
             }
             else
             {
-                TempData["ThongBao"] = "Đăng ký không thành công";
+                TempData["ThongBao"] = "Đăng ký không thành công, email đã tồn tại";
                 return View();
             }
         }

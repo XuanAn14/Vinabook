@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "E:\\thuctap\\Vinabook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\nguoidung\\doimatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\nguoidung\\doimatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\shared\\components\\header\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\wwwroot\\assets\\css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\wwwroot\\assets\\css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\nguoidung\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\nguoidung\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\controllers\\sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\shared\\components\\sidebarft\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\shared\\components\\sidebarft\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\controllers\\donggiohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\controllers\\donggiohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\shared\\components\\timkiem\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\shared\\components\\timkiem\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\sach\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\nguoidung\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\nguoidung\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\nguoidung\\doimatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\nguoidung\\doimatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\sach\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|e:\\thuctap\\vinabook\\vinabook\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{638E427E-AD71-435C-A415-6CBF28C3ABA8}|Vinabook\\Vinabook.csproj|solutionrelative:vinabook\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,122 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DanhMucController.cs",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Controllers\\DanhMucController.cs",
+              "RelativeDocumentMoniker": "Vinabook\\Controllers\\DanhMucController.cs",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Controllers\\DanhMucController.cs",
+              "RelativeToolTip": "Vinabook\\Controllers\\DanhMucController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T08:18:43.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "base.css",
-              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\base.css",
-              "RelativeDocumentMoniker": "Vinabook\\wwwroot\\assets\\css\\base.css",
-              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\base.css",
-              "RelativeToolTip": "Vinabook\\wwwroot\\assets\\css\\base.css",
-              "ViewState": "AQIAAH0BAAAAAAAAAAAnwJkBAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-02T10:10:34.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeDocumentMoniker": "Vinabook\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "RelativeToolTip": "Vinabook\\Views\\Shared\\Components\\Header\\Default.cshtml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAFEAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T10:02:04.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DangKy.cshtml",
-              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\NguoiDung\\DangKy.cshtml",
-              "RelativeDocumentMoniker": "Vinabook\\Views\\NguoiDung\\DangKy.cshtml",
-              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\NguoiDung\\DangKy.cshtml",
-              "RelativeToolTip": "Vinabook\\Views\\NguoiDung\\DangKy.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAiwHIAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T10:00:06.289Z",
+              "Title": "DongGioHangController.cs",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Controllers\\DongGioHangController.cs",
+              "RelativeDocumentMoniker": "Vinabook\\Controllers\\DongGioHangController.cs",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Controllers\\DongGioHangController.cs",
+              "RelativeToolTip": "Vinabook\\Controllers\\DongGioHangController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T08:17:44.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DoiMatKhau.cshtml",
-              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\NguoiDung\\DoiMatKhau.cshtml",
-              "RelativeDocumentMoniker": "Vinabook\\Views\\NguoiDung\\DoiMatKhau.cshtml",
-              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\NguoiDung\\DoiMatKhau.cshtml",
-              "RelativeToolTip": "Vinabook\\Views\\NguoiDung\\DoiMatKhau.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAD4AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T09:59:58.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "NguoiDungController.cs",
               "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "Vinabook\\Controllers\\NguoiDungController.cs",
               "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Controllers\\NguoiDungController.cs",
               "RelativeToolTip": "Vinabook\\Controllers\\NguoiDungController.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAkwHgAAAAnAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwFcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T09:55:27.369Z",
+              "WhenOpened": "2024-05-04T08:12:41.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Shared\\Components\\TimKiem\\Default.cshtml",
-              "RelativeDocumentMoniker": "Vinabook\\Views\\Shared\\Components\\TimKiem\\Default.cshtml",
-              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Shared\\Components\\TimKiem\\Default.cshtml",
-              "RelativeToolTip": "Vinabook\\Views\\Shared\\Components\\TimKiem\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T12:01:33.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Shared\\Components\\SidebarFt\\Default.cshtml",
-              "RelativeDocumentMoniker": "Vinabook\\Views\\Shared\\Components\\SidebarFt\\Default.cshtml",
-              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Shared\\Components\\SidebarFt\\Default.cshtml",
-              "RelativeToolTip": "Vinabook\\Views\\Shared\\Components\\SidebarFt\\Default.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T08:36:19.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "SachController.cs",
               "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Controllers\\SachController.cs",
               "RelativeDocumentMoniker": "Vinabook\\Controllers\\SachController.cs",
               "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Controllers\\SachController.cs",
               "RelativeToolTip": "Vinabook\\Controllers\\SachController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAwwDwAAACgAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowEIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T08:36:06.212Z",
+              "WhenOpened": "2024-05-04T08:06:03.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "Vinabook\\Models\\NguoiDung.cs",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "Vinabook\\Models\\NguoiDung.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T08:12:37.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DangKy.cshtml",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\NguoiDung\\DangKy.cshtml",
+              "RelativeDocumentMoniker": "Vinabook\\Views\\NguoiDung\\DangKy.cshtml",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\NguoiDung\\DangKy.cshtml",
+              "RelativeToolTip": "Vinabook\\Views\\NguoiDung\\DangKy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T08:12:32.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoiMatKhau.cshtml",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\NguoiDung\\DoiMatKhau.cshtml",
+              "RelativeDocumentMoniker": "Vinabook\\Views\\NguoiDung\\DoiMatKhau.cshtml",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\NguoiDung\\DoiMatKhau.cshtml",
+              "RelativeToolTip": "Vinabook\\Views\\NguoiDung\\DoiMatKhau.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T08:12:28.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Details.cshtml",
+              "RelativeDocumentMoniker": "Vinabook\\Views\\Sach\\Details.cshtml",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Details.cshtml",
+              "RelativeToolTip": "Vinabook\\Views\\Sach\\Details.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAJQAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T15:41:44.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Index.cshtml",
-              "RelativeDocumentMoniker": "Vinabook\\Views\\Sach\\Index.cshtml",
-              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Sach\\Index.cshtml",
-              "RelativeToolTip": "Vinabook\\Views\\Sach\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vinabook\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Vinabook\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAGQAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T10:57:38.437Z"
+              "WhenOpened": "2024-05-03T15:40:59.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "style.css",
+              "DocumentMoniker": "E:\\thuctap\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "Vinabook\\wwwroot\\assets\\css\\style.css",
+              "ToolTip": "E:\\thuctap\\Vinabook\\Vinabook\\wwwroot\\assets\\css\\style.css",
+              "RelativeToolTip": "Vinabook\\wwwroot\\assets\\css\\style.css",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAawAwBAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-03T15:37:28.961Z"
             }
           ]
         }

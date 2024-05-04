@@ -96,6 +96,14 @@
                                 <div class="product-bs__prices">
                                     <!-- <span class="product-bs__price-dc">-15%</span> -->
                                     <div class="product-bs__prices-box">
+                                        <a asp-action="ThemVaoGio" asp-controller="DongGioHang" asp-route-id="@item.MaSach">
+                                            <button class="btn__buy">
+                                                <span style="font-size: 12px ; margin: 0px 6px">
+                                                    <i class="bi bi-cart4 btn__buy-icon"></i>
+                                                    Thêm Vào Giỏ
+                                                </span>
+                                            </button>
+                                        </a>
                                         <!-- <div class="product-bs__price-old">100.000đ</div> -->
                                         <span class="product-bs__price-pr">@item.Gia</span>
                                     </div>
